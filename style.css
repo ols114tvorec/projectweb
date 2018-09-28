@@ -1,0 +1,36 @@
+*{margin: 0%}
+.body{font-family: 'Lobster', cursive;}
+
+.header0 {background: rgb(212, 208, 208);
+width: 100% ; height: 10%;
+overflow: hidden;
+padding: 30px 20px;
+}
+.header0 h3 {
+ float: right; margin: 15px 60px
+ }
+ .header0 h2 {
+     float: left; margin: 15px 60px
+ }
+
+.subheader {background: rgb(252, 161, 125);
+     overflow: hidden;
+     width: 100%; height: 7%;
+     padding: 10px 10px;
+    
+    }
+.login {float: right; margin: 15px 60px;
+}
+
+
+.logo {margin: 15px 15px;
+display: inline; 
+ }
+
+ .logotext {margin: 15px 15px;
+padding: 50px;
+display: inline-block;
+font-family: 'Dancing Script', cursive;}
+clearfix:after {content: '' ; 
+display: block;
+clear: both}
