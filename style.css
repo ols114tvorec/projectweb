@@ -47,7 +47,6 @@ table {
 
 .header0 {background: rgb(212, 208, 208);
 width: 100% ; height: 30px;
-
 padding: 30px 20px;
 }
 .header0 h3 {
@@ -58,7 +57,6 @@ padding: 30px 20px;
  }
 
 .subheader {background: rgb(252, 161, 125);
-     
      width: 100%; height: 100px;
      padding: 10px 10px;
     
@@ -230,7 +228,9 @@ top: 20px;}
 left: 3%;
 top: 28%}
 
-.boxfootersearch {display: flex; justify-content: flex-end;margin-right: 10px}
+.boxfootersearch {display: flex; justify-content: flex-end;margin-right: 25px; 
+position: relative;
+bottom:30px }
 
 .titlefooter {
     height: 20px;
@@ -239,8 +239,8 @@ color: blue
 }
 .search { 
     height: 20px;
-width: 150px; right: 20px;
-display: block;
+width: 250px; right: 30px;
+display: inline-block;
 background: blueviolet}
 
 .subfooter { 
