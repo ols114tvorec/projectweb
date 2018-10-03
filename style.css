@@ -123,24 +123,34 @@ table {
     float:right;
 }
 content .post .imege {
-    height: 50px;
-    width: 50px;
+    height: 300px;
+    width: 300px;
     background: rgb(177, 71, 71);
-    margin: 15px 15px;
+    position: relative;
+    top: 100px;
     display: inline-block;
-    position: relative;
-    top: 50px;
-    left: 50px;
-}
-.content .post .texttext { 
-    height: 200px;
-    width: 200px;
-    display: block;
     margin: 15px;
-    top: 50px;
-    right: 50px;
+
+}
+
+.boximegetext {
+    height: 220px;
+    width: 100%;
+    display: flex; 
+    justify-content: space-around;
     position: relative;
-    float:right;
+    top: 30px
+    }
+
+
+.content .post .texttext { 
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 15px;
+    top: 70px;
+    position: relative;
+    display: flex
 }
 .content .navigation {
     height: 300px;
@@ -178,7 +188,8 @@ content .post .imege {
 
 .titleblock {
     height: 165px;
-    width: 98%; display: flex;
+    width: 98%; 
+    display: flex;
     align-items: center;
     position: relative;
     top: 5%;
